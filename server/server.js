@@ -1,6 +1,6 @@
 const express = require('express');
 const socketIO = require('socket.io');
-const http = require('http'); // Lo trae Node por defecto
+const http = require('http'); // Lo trae Node por defecto y si quiero puedo trabajar con https
 
 const path = require('path');
 
