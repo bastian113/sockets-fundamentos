@@ -13,7 +13,7 @@ socket.on('disconnect', function() {
 
 // Enviar información
 socket.emit('enviarMensaje', {
-    usuario: 'Fernando',
+    usuario: 'Sebastian',
     mensaje: 'Hola Mundo'
 }, function(resp) { // Con este tercer parámetro envío el callback al server
     console.log('Respuesta Server: ', resp);
